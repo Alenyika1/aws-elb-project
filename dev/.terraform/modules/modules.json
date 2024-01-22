@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"ec2-compute","Source":"./home/vagrant/aws-elb-project/child/EC2","Dir":""},{"Key":"elb","Source":"../child-modules/elb","Dir":""},{"Key":"vpc","Source":"../child/my-vpc","Dir":"../child/my-vpc"}]}
