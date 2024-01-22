@@ -1,13 +1,13 @@
 module "vpc" {
-    source                             = "../child-modules/vpc"
-    cidr_block                         = "192.20.0.0/16"
-    environment                        = "dev-playground"
+    source                             = "../child/my-vpc"
+    cidr_block                         = "192.30.0.0/16"
+    environment                        = "dev"
     vpc_name                           = "my-vpc"
     state                              = "available" 
 }
 
 module "ec2-compute" {
-    source                              = "../child-modules/ec2-compute"
+    source                              = "../c/EC2"
     ami                                 = "ami-0ff1c68c6e837b183"
     instance_type                       = "t2.micro" 
     environment                         = "dev-playground"

@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"ec2-compute","Source":"../c/EC2","Dir":""},{"Key":"elb","Source":"../child-modules/elb","Dir":""},{"Key":"route-53","Source":"../child-modules/route-53","Dir":""},{"Key":"vpc","Source":"../child/my-vpc","Dir":""}]}
